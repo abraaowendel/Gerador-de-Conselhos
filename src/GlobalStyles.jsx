@@ -6,5 +6,8 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    body,html{
+        overflow: hidden;
+    }
 `;
 export default GlobalStyle;
